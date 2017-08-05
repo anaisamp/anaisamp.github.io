@@ -21,7 +21,7 @@ window.initMap = function() {
     });
 
     var image = new google.maps.MarkerImage(
-        'img/widgets/gmap-pin.png',
+        'img/anchor.png',
         new google.maps.Size(48, 54),
         new google.maps.Point(0, 0),
         new google.maps.Point(24, 54)
