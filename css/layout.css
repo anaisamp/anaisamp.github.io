@@ -307,6 +307,19 @@ fieldset[disabled] .btn-theme {
   border-color: transparent;
 }
 
+.btn-base-bg {
+  color: #fff;
+  background: #e62b1e;
+  border-color: transparent;
+  border-width: 3px;
+}
+
+.btn-base-bg:hover, .btn-base-bg:focus, .btn-base-bg.focus {
+  color: #e62b1e;
+  background: #f3f4f5;
+  border-color: #e62b1e;
+}
+
 .btn-theme-sm {
   font-size: 13px;
   font-weight: 600;
@@ -402,6 +415,12 @@ fieldset[disabled] .btn-theme {
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .promo-banner .promo-banner-title {
+    font-size: 30px;
+  }
+}
+
 .promo-banner .promo-banner-text {
   font-size: 20px;
   color: #fff;
@@ -421,6 +440,12 @@ fieldset[disabled] .btn-theme {
   padding: 250px 0 200px;
 }
 
+@media (max-width: 768px) {
+  .promo-block {
+    padding: 150px 0 100px;
+  }
+}
+
 .promo-block:before {
   position: absolute;
   top: 0;
@@ -437,7 +462,7 @@ fieldset[disabled] .btn-theme {
   color: #fff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .promo-block .promo-block-title {
     font-size: 50px;
   }
@@ -447,6 +472,12 @@ fieldset[disabled] .btn-theme {
   font-size: 25px;
   color: #fff;
   padding: 0 100px;
+}
+
+@media (max-width: 768px) {
+  .promo-block .promo-block-text {
+    padding: 0;
+  }
 }
 
 /*------------------------------------------------------------------
@@ -1583,4 +1614,8 @@ fieldset[disabled] .btn-theme {
 ----------------------------------------------------*/
 .spacing {
   margin: 0 15px;
+}
+
+.img-filter {
+  filter: saturate(1.5) grayscale(30%);
 }

@@ -422,3 +422,7 @@
 .spacing {
     margin: 0 15px;
 }
+
+.img-filter {
+    filter: saturate(1.5) grayscale(30%);
+}

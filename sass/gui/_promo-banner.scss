@@ -21,6 +21,9 @@
     .promo-banner-title {
         @include font($size: 50px);
         color: $color-white;
+        @media (max-width: $screen-sm-min) {
+            @include font($size: 30px);
+        }
     }
     .promo-banner-text {
         @include font($size: 20px);

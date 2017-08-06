@@ -1,32 +1,38 @@
-/*------------------------------------------------------------------
+    /*------------------------------------------------------------------
   	[Promo Block]
 ------------------------------------------------------------------*/
-
-.promo-block {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    background: url(../img/banner.png) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 250px 0 200px;
-    &:before {
-        @include position(absolute, $top: 0, $left: 0);
-        @include size(100%);
-        z-index: -1;
-        @include bg-opacity($color-heading, .4);
-        content: " ";
-    }
-    .promo-block-title {
-        @include font($size: 70px);
-        color: $color-white;
-        @media (max-width: $screen-xs-min) {
-            @include font($size: 50px);
+    
+    .promo-block {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        background: url(../img/banner.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 250px 0 200px;
+        @media(max-width: $screen-sm-min) {
+            padding: 150px 0 100px;
+        }
+        &:before {
+            @include position(absolute, $top: 0, $left: 0);
+            @include size(100%);
+            z-index: -1;
+            @include bg-opacity($color-heading, .4);
+            content: " ";
+        }
+        .promo-block-title {
+            @include font($size: 70px);
+            color: $color-white;
+            @media (max-width: $screen-sm-min) {
+                @include font($size: 50px);
+            }
+        }
+        .promo-block-text {
+            @include font($size: 25px);
+            color: $color-white;
+            padding: 0 100px;
+            @media(max-width: $screen-sm-min) {
+                padding: 0;
+            }
         }
     }
-    .promo-block-text {
-        @include font($size: 25px);
-        color: $color-white;
-        padding: 0 100px;
-    }
-}
