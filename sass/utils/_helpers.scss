@@ -426,3 +426,33 @@
 .img-filter {
     filter: saturate(1.5) grayscale(30%);
 }
+
+#equipa {
+    position: relative;
+    z-index: 1;
+    //text-align: center;
+    background: url(../img/objects/02_sm.png) no-repeat;
+    //background-size: cover;
+    background-position: bottom right;
+   // background-attachment: fixed;
+    min-height: 100%;
+    &:before {
+        @include position(absolute, $top: 0, $left: 0);
+        @include size(100%);
+        z-index: -1;
+        @include bg-opacity($color-heading, 0);
+        content: " ";
+    }
+
+    @media(max-width: $screen-sm-min) {
+        background: none;
+        
+    }
+    .col-xs-4 {
+        background: rgba(255,255,255, 0.5);
+
+        h4 span { color: #000; }
+    }
+
+
+}

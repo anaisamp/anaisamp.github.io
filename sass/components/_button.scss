@@ -24,7 +24,8 @@
 }
 
 .btn-base-bg {
-    @include button-color($color-white, $color-base, $color-base, #f3f4f5, 3px, transparent, $color-base);
+    @include button-color($color-white, $color-base, $color-base, #f3f4f5, 3px, transparent, $color-base);border-radius: 50px;
+
 }
 
 .btn-theme-sm {
@@ -33,4 +34,8 @@
 
 .btn-theme-md {
     @include button-size(15px, 600, 20px 30px);
+}
+
+.btn-white-bg-red-brd {
+    @include button-color($color-base, $color-base, #f3f4f5, #f3f4f5, 3px, $color-base, $color-base);
 }

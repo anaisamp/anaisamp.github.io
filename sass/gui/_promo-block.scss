@@ -8,8 +8,8 @@
         text-align: center;
         background: url(../img/banner.png) no-repeat;
         background-size: cover;
-        background-position: center center;
-        padding: 250px 0 200px;
+        background-position: center;
+        padding: 300px 0 200px;
         @media(max-width: $screen-sm-min) {
             padding: 150px 0 100px;
         }
@@ -17,19 +17,21 @@
             @include position(absolute, $top: 0, $left: 0);
             @include size(100%);
             z-index: -1;
-            @include bg-opacity($color-heading, .4);
+            @include bg-opacity($color-heading, .05);
             content: " ";
         }
         .promo-block-title {
-            @include font($size: 70px);
-            color: $color-white;
+            @include font($size: 46px);
+            color: #000;
             @media (max-width: $screen-sm-min) {
-                @include font($size: 50px);
+                @include font($size: 30px);
             }
         }
         .promo-block-text {
-            @include font($size: 25px);
-            color: $color-white;
+            @include font($size: 16px);
+            color: #000;
+            text-transform: uppercase;
+            font-weight: bold;
             padding: 0 100px;
             @media(max-width: $screen-sm-min) {
                 padding: 0;

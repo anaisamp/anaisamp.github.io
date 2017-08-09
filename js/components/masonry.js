@@ -44,5 +44,5 @@ var Masonry = function() {
 }();
 
 $(document).ready(function() {
-    Masonry.init();
+   // Masonry.init();
 });

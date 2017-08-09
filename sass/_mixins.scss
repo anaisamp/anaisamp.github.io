@@ -73,6 +73,7 @@
         touch-action: manipulation;
     cursor: pointer;
     @include user-select(none);
+    
 
     &:focus,
     &:active:focus,

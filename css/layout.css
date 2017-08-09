@@ -312,6 +312,7 @@ fieldset[disabled] .btn-theme {
   background: #e62b1e;
   border-color: transparent;
   border-width: 3px;
+  border-radius: 50px;
 }
 
 .btn-base-bg:hover, .btn-base-bg:focus, .btn-base-bg.focus {
@@ -330,6 +331,19 @@ fieldset[disabled] .btn-theme {
   font-size: 15px;
   font-weight: 600;
   padding: 20px 30px;
+}
+
+.btn-white-bg-red-brd {
+  color: #e62b1e;
+  background: #f3f4f5;
+  border-color: #e62b1e;
+  border-width: 3px;
+}
+
+.btn-white-bg-red-brd:hover, .btn-white-bg-red-brd:focus, .btn-white-bg-red-brd.focus {
+  color: #e62b1e;
+  background: #f3f4f5;
+  border-color: #e62b1e;
 }
 
 /*------------------------------------------------------------------
@@ -436,8 +450,8 @@ fieldset[disabled] .btn-theme {
   text-align: center;
   background: url(../img/banner.png) no-repeat;
   background-size: cover;
-  background-position: center center;
-  padding: 250px 0 200px;
+  background-position: center;
+  padding: 300px 0 200px;
 }
 
 @media (max-width: 768px) {
@@ -453,24 +467,26 @@ fieldset[disabled] .btn-theme {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(81, 87, 105, 0.4);
+  background: rgba(81, 87, 105, 0.05);
   content: " ";
 }
 
 .promo-block .promo-block-title {
-  font-size: 70px;
-  color: #fff;
+  font-size: 46px;
+  color: #000;
 }
 
 @media (max-width: 768px) {
   .promo-block .promo-block-title {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 
 .promo-block .promo-block-text {
-  font-size: 25px;
-  color: #fff;
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
   padding: 0 100px;
 }
 
@@ -823,7 +839,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   font-family: Hind, sans-serif;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   line-height: 55px;
   padding: 20px;
@@ -1618,4 +1634,37 @@ fieldset[disabled] .btn-theme {
 
 .img-filter {
   filter: saturate(1.5) grayscale(30%);
+}
+
+#equipa {
+  position: relative;
+  z-index: 1;
+  background: url(../img/objects/02_sm.png) no-repeat;
+  background-position: bottom right;
+  min-height: 100%;
+}
+
+#equipa:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0);
+  content: " ";
+}
+
+@media (max-width: 768px) {
+  #equipa {
+    background: none;
+  }
+}
+
+#equipa .col-xs-4 {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#equipa .col-xs-4 h4 span {
+  color: #000;
 }
