@@ -660,10 +660,17 @@ fieldset[disabled] .btn-theme {
 .footer .footer-logo {
   width: 300px;
   height: auto;
+  margin-left: -15px;
 }
 
 .footer .footer-list {
   margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .footer .footer-list {
+    text-align: center;
+  }
 }
 
 .footer .footer-list-item {
@@ -673,6 +680,12 @@ fieldset[disabled] .btn-theme {
 
 .footer .footer-list-item:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-img {
+    text-align: center;
+  }
 }
 
 /*------------------------------------------------------------------
@@ -1667,4 +1680,15 @@ fieldset[disabled] .btn-theme {
 
 #equipa .col-xs-4 h4 span {
   color: #000;
+}
+
+.facebook-share {
+  color: #4267b2;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.facebook-share:hover {
+  color: #29487d;
 }

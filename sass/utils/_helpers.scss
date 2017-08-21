@@ -456,3 +456,14 @@
 
 
 }
+
+.facebook-share {
+    color: #4267b2;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+
+    &:hover {
+        color: #29487d;
+    }
+}
