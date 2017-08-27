@@ -330,7 +330,7 @@ fieldset[disabled] .btn-theme {
 .btn-theme-md {
   font-size: 15px;
   font-weight: 600;
-  padding: 20px 30px;
+  padding: 20px 20px;
 }
 
 .btn-white-bg-red-brd {
@@ -658,7 +658,7 @@ fieldset[disabled] .btn-theme {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer .footer-logo {
-  width: 300px;
+  width: 250px;
   height: auto;
   margin-left: -15px;
 }
@@ -778,8 +778,8 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Logo */
 .header .logo {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   float: left;
   max-height: 95px;
   line-height: 65px;
@@ -787,7 +787,7 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-wrap {
   display: inline-block;
-  margin-top: -15px;
+  padding: 15px 0;
 }
 
 .header .logo-wrap:focus, .header .logo-wrap:hover {
@@ -911,8 +911,8 @@ fieldset[disabled] .btn-theme {
     float: none;
   }
   .header .logo {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
   }
   .header .logo-wrap {
     display: inline-block;
@@ -967,6 +967,10 @@ fieldset[disabled] .btn-theme {
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
+  }
+  .header .logo {
+    width: 250px;
+    height: 250px;
   }
 }
 
@@ -1321,6 +1325,13 @@ fieldset[disabled] .btn-theme {
   padding-bottom: 100px;
 }
 
+@media (max-width: 767px) {
+  .content-sm, .content-md, .content-lg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
 /*------------------------------------------------------------------
     [Full Width]
 ------------------------------------------------------------------*/
@@ -1668,9 +1679,15 @@ fieldset[disabled] .btn-theme {
   content: " ";
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #equipa {
     background: none;
+  }
+  #equipa h4 {
+    font-size: 18px;
+  }
+  #equipa h4 span {
+    font-size: 12px;
   }
 }
 
@@ -1691,4 +1708,35 @@ fieldset[disabled] .btn-theme {
 
 .facebook-share:hover {
   color: #29487d;
+}
+
+/* Parceiros */
+.sponsor-container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.sponsor-container {
+  padding: 30px;
+  margin: 20px;
+  max-width: 180px;
+  max-height: 150px;
+}
+
+.gold .sponsor-container {
+  max-width: 250px;
+  max-height: 200px;
+}
+
+.sponsor-container img {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .sponsor-container {
+    margin: 0;
+  }
 }

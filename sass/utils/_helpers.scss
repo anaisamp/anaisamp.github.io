@@ -78,6 +78,12 @@
     padding-bottom: 100px;
 }
 
+@media (max-width: $screen-xs-max) {
+    .content-sm, .content-md, .content-lg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
 
 /*------------------------------------------------------------------
     [Full Width]
@@ -444,9 +450,14 @@
         content: " ";
     }
 
-    @media(max-width: $screen-sm-min) {
+    @media(max-width: $screen-xs-max) {
         background: none;
-        
+        h4 {
+            font-size: 18px;
+            span {
+                font-size: 12px;
+            }
+        }
     }
     .col-xs-4 {
         background: rgba(255,255,255, 0.5);
@@ -467,3 +478,33 @@
         color: #29487d;
     }
 }
+
+/* Parceiros */
+.sponsor-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.sponsor-container {
+    padding: 30px;
+    margin: 20px;
+    max-width: 180px;
+    max-height: 150px;
+
+    .gold & {
+        max-width: 250px;
+        max-height: 200px;
+    }
+    img {
+        max-width: 100%;
+    }
+    
+    @media (max-width: $screen-xs-max) {
+        & {
+            margin: 0;
+        }
+    }
+}
+
