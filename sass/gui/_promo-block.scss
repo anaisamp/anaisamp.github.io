@@ -9,8 +9,7 @@
         background: url(../img/banner.png) no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 300px 0 200px;
-        margin-top: 47px;
+        padding: 300px 0 150px;
         @media(max-width: $screen-sm-min) {
             padding: 150px 0 100px;
         }
@@ -22,7 +21,7 @@
             content: " ";
         }
         .promo-block-title {
-            @include font($size: 46px);
+            @include font($size: 56px);
             color: #000;
             @media (max-width: $screen-sm-min) {
                 @include font($size: 30px);
