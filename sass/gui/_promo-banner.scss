@@ -15,7 +15,7 @@
         @include position(absolute, $top: 0, $left: 0);
         @include size(100%);
         z-index: -1;
-        @include bg-opacity($color-heading, .8);
+        @include bg-opacity($color-heading, .7);
         content: " ";
     }
     .promo-banner-title {
@@ -26,7 +26,6 @@
         }
     }
     .promo-banner-text {
-        @include font($size: 20px);
         color: $color-white;
         opacity: .8;
     }

@@ -14,7 +14,7 @@
         .navbar {
             margin-bottom: 0;
             border-bottom: 1px solid rgba(255, 255, 255, .2);
-            @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+            //@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
         }
     }
     /* Navbar Toggle */
@@ -92,14 +92,14 @@
             max-height: 100%;
             vertical-align: middle;
         }
-        .logo-img-main {
+        /*         .logo-img-main {
             display: inline-block;
             @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
         }
         .logo-img-active {
             display: none;
             @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
-        }
+        } */
     }
     /* Navbar */
     
@@ -211,12 +211,12 @@
         /* Logo */
         .header {
             .logo {
-                .logo-img-main {
+                /*                 .logo-img-main {
                     display: none;
                 }
                 .logo-img-active {
                     display: inline-block;
-                }
+                } */
             }
         }
         /* Navbar Nav */
@@ -259,7 +259,7 @@
                     }
                 }
             }
-             .logo {
+            .logo {
                 @include size(250px);
             }
         }
@@ -282,16 +282,16 @@
                 .navbar {
                     background: $color-white;
                     border-bottom-color: #f0f0f0;
-                    @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+                    //@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
                 }
-                .logo-img-main {
+                /*                 .logo-img-main {
                     display: none;
-                    @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+                    // @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
                 }
                 .logo-img-active {
                     display: inline-block;
-                    @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
-                }
+                    // @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
+                } */
                 .nav-item-child {
                     color: $color-heading;
                     @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));

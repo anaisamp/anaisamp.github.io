@@ -79,11 +79,14 @@
 }
 
 @media (max-width: $screen-xs-max) {
-    .content-sm, .content-md, .content-lg {
+    .content-sm,
+    .content-md,
+    .content-lg {
         padding-top: 40px;
         padding-bottom: 40px;
     }
 }
+
 
 /*------------------------------------------------------------------
     [Full Width]
@@ -430,7 +433,8 @@
 }
 
 .img-filter {
-    filter: saturate(1.5) grayscale(30%);
+    filter: brightness(1.2);
+    opacity: 0.8;
 }
 
 #equipa {
@@ -440,7 +444,7 @@
     background: url(../img/objects/02_sm.png) no-repeat;
     //background-size: cover;
     background-position: bottom right;
-   // background-attachment: fixed;
+    // background-attachment: fixed;
     min-height: 100%;
     &:before {
         @include position(absolute, $top: 0, $left: 0);
@@ -449,7 +453,6 @@
         @include bg-opacity($color-heading, 0);
         content: " ";
     }
-
     @media(max-width: $screen-xs-max) {
         background: none;
         h4 {
@@ -460,12 +463,11 @@
         }
     }
     .col-xs-4 {
-        background: rgba(255,255,255, 0.5);
-
-        h4 span { color: #000; }
+        background: rgba(255, 255, 255, 0.5);
+        h4 span {
+            color: #000;
+        }
     }
-
-
 }
 
 .facebook-share {
@@ -473,13 +475,14 @@
     padding: 10px;
     font-size: 15px;
     text-decoration: underline;
-
     &:hover {
         color: #29487d;
     }
 }
 
+
 /* Parceiros */
+
 .sponsor-container-flex {
     display: flex;
     flex-wrap: wrap;
@@ -487,12 +490,12 @@
     align-content: center;
     justify-content: center;
 }
+
 .sponsor-container {
     padding: 30px;
     margin: 20px;
     max-width: 180px;
     max-height: 150px;
-
     .gold & {
         max-width: 250px;
         max-height: 200px;
@@ -500,11 +503,9 @@
     img {
         max-width: 100%;
     }
-    
     @media (max-width: $screen-xs-max) {
         & {
             margin: 0;
         }
     }
 }
-
