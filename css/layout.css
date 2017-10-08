@@ -536,6 +536,16 @@ fieldset[disabled] .btn-theme {
 .work {
   position: relative;
   display: block;
+  /*
+	&:hover {
+		.work-overlay {
+			&:before {
+		        @include bg-opacity(#000, .5);
+		        @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+		    }
+		}
+	}
+	*/
 }
 
 .work .work-overlay {
@@ -551,13 +561,6 @@ fieldset[disabled] .btn-theme {
   height: 100%;
   background: transparent;
   content: " ";
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.work:hover .work-overlay:before {
-  background: rgba(0, 0, 0, 0.5);
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -1731,4 +1734,11 @@ fieldset[disabled] .btn-theme {
   .sponsor-container {
     margin: 0;
   }
+}
+
+#oradores {
+  background-color: #f8f8f8;
+  background-image: url(../img/objects/04.png);
+  background-repeat: no-repeat;
+  background-position: -340px -240px;
 }
