@@ -510,9 +510,11 @@
     }
 }
 
-#oradores {
-    background-color: #f8f8f8;
-    background-image: url(../img/objects/04.png);
-    background-repeat: no-repeat;
-    background-position: -340px -240px;
+@media (min-width: $screen-sm-min) {
+    #oradores {
+        background-color: #f8f8f8;
+        background-image: url(../img/objects/04.png);
+        background-repeat: no-repeat;
+        background-position: -340px -240px;
+    }
 }
