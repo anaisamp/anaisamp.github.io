@@ -1736,9 +1736,12 @@ fieldset[disabled] .btn-theme {
   }
 }
 
+#oradores {
+  background-color: #f8f8f8;
+}
+
 @media (min-width: 768px) {
   #oradores {
-    background-color: #f8f8f8;
     background-image: url(../img/objects/04.png);
     background-repeat: no-repeat;
     background-position: -340px -240px;

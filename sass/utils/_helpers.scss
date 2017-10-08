@@ -510,9 +510,9 @@
     }
 }
 
-@media (min-width: $screen-sm-min) {
-    #oradores {
-        background-color: #f8f8f8;
+#oradores {
+    background-color: #f8f8f8;
+    @media (min-width: $screen-sm-min) {
         background-image: url(../img/objects/04.png);
         background-repeat: no-repeat;
         background-position: -340px -240px;
