@@ -1747,3 +1747,16 @@ fieldset[disabled] .btn-theme {
     background-position: -340px -240px;
   }
 }
+
+#inscricoes {
+  text-align: center;
+}
+
+#inscricoes #inscricoes_iframe {
+  width: 600px;
+  height: 770px;
+}
+
+#img_bilhetedigital {
+  display: none;
+}
