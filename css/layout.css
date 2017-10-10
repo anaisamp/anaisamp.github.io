@@ -1233,7 +1233,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Row]
+[Row]
 ------------------------------------------------------------------*/
 .row-space-2 {
   margin-right: -2px;
@@ -1246,7 +1246,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*--------------------------------------------------
-    [Container Full Width]
+[Container Full Width]
 ----------------------------------------------------*/
 .container-full-width {
   margin-right: auto;
@@ -1263,7 +1263,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*--------------------------------------------------
-    [Container Small]
+[Container Small]
 ----------------------------------------------------*/
 .container-sm {
   padding-right: 15px;
@@ -1296,7 +1296,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-  	[Content]
+[Content]
 ------------------------------------------------------------------*/
 .content {
   padding-top: 40px;
@@ -1328,7 +1328,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Full Width]
+[Full Width]
 ------------------------------------------------------------------*/
 .full-width {
   width: 100%;
@@ -1336,7 +1336,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*--------------------------------------------------
-    [Font Weight]
+[Font Weight]
 ----------------------------------------------------*/
 .fweight-300 {
   font-weight: 300 !important;
@@ -1359,7 +1359,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Left margin]
+[Left margin]
 ------------------------------------------------------------------*/
 .margin-l-0 {
   margin-left: 0 !important;
@@ -1378,7 +1378,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Right margin]
+[Right margin]
 ------------------------------------------------------------------*/
 .margin-r-0 {
   margin-right: 0 !important;
@@ -1397,7 +1397,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Top margin]
+[Top margin]
 ------------------------------------------------------------------*/
 .margin-t-0 {
   margin-top: 0 !important;
@@ -1432,7 +1432,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Bottom margin]
+[Bottom margin]
 ------------------------------------------------------------------*/
 .margin-b-0 {
   margin-bottom: 0 !important;
@@ -1487,7 +1487,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Top margin below 992px]
+[Top margin below 992px]
 ------------------------------------------------------------------*/
 @media (max-width: 992px) {
   .md-margin-b-0 {
@@ -1532,7 +1532,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Top margin below 768px]
+[Top margin below 768px]
 ------------------------------------------------------------------*/
 @media (max-width: 768px) {
   .sm-margin-b-0 {
@@ -1577,7 +1577,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-    [Top margin below 480px]
+[Top margin below 480px]
 ------------------------------------------------------------------*/
 @media (max-width: 480px) {
   .xs-margin-b-0 {
@@ -1622,7 +1622,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*--------------------------------------------------
-    [Height]
+[Height]
 ----------------------------------------------------*/
 .height-100 {
   height: 100px !important;
@@ -1645,7 +1645,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*--------------------------------------------------
-    [Left Right space]
+[Left Right space]
 ----------------------------------------------------*/
 .spacing {
   margin: 0 15px;
@@ -1724,6 +1724,11 @@ fieldset[disabled] .btn-theme {
 .gold .sponsor-container {
   max-width: 250px;
   max-height: 200px;
+}
+
+.community .sponsor-container img {
+  max-width: 70px;
+  max-height: 100px;
 }
 
 .sponsor-container img {

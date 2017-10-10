@@ -500,6 +500,10 @@
         max-width: 250px;
         max-height: 200px;
     }
+    .community & img {
+        max-width: 70px;
+        max-height: 100px;
+    }
     img {
         max-width: 100%;
     }
