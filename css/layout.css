@@ -486,13 +486,7 @@ fieldset[disabled] .btn-theme {
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0 100px;
-}
-
-@media (max-width: 768px) {
-  .promo-block .promo-block-text {
-    padding: 0;
-  }
+  padding: 0 10px;
 }
 
 /*------------------------------------------------------------------
@@ -788,11 +782,18 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .logo {
-  width: 400px;
-  height: 400px;
+  width: 150px;
+  height: auto;
   float: left;
   max-height: 95px;
   line-height: 65px;
+}
+
+@media (min-width: 1200px) {
+  .header .logo {
+    width: 350px;
+    height: auto;
+  }
 }
 
 .header .logo-wrap {
