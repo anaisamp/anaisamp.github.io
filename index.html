@@ -42,9 +42,9 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="menu-container">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
 
                     <!-- Logo -->
                     <div class="logo">
@@ -60,14 +60,13 @@
                     <div class="menu-container">
                         <ul class="nav navbar-nav navbar-nav-right">
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#mote">Pontes</a></li>
-                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#preevento">Pré-evento</a></li>
+                            <li class="js_nav-item nav-item hide"><a class="nav-item-child nav-item-hover" href="#pre-evento">Pré-evento</a></li>
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" style="text-transform: none;" href="#ted">TED & TEDx</a></li>
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#oradores">Oradores</a></li>
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#inscricoes">Inscrições</a></li>
                             <!--<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#programa">Programa</a></li>-->
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#parceiros">Parceiros</a></li>
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#equipa">Equipa</a></li>
-                            <!--<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contactos</a></li>-->
                             <li class="nav-item">
                                 <a class="nav-item-child" href="https://www.facebook.com/TEDxVilaDoCondeWomen/" target="_blank"><img src="img/social/facebook.svg" alt="Facebook" width="20px" /></a>
                             </li>
@@ -88,14 +87,14 @@
                 <h1 class="promo-block-title">Pontes que erguemos</h1>
                 <p class="promo-block-text">3 novembro - Teatro Municipal de Vila do Conde
                 </p>
-                <a href="#preevento"><span class="promo-block-text bg-color-base color-white">Pré-evento: 19 outubro - Centro de Memória de Vila do Conde
+                <a href="#pre-evento"><span class="promo-block-text bg-color-base color-white hide">Pré-evento: 19 outubro - Centro de Memória de Vila do Conde
                 </span></a>
-                <p class="margin-t-40">
-                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftedxviladocondewomen.com%2F&layout=button&size=large&mobile_iframe=true&width=93&height=28&appId" width="93" height="28" style="border:none;overflow:hidden;" scrolling="no"
-                        frameborder="0" allow-transparency="true"></iframe>
-                </p>
             </div>
-            <a href="https://www.last2ticket.com/pt/events/484" target="_blank" class="btn-theme btn-theme-md btn-white-bg-red-brd text-uppercase">Bilhetes disponíveis</a>
+            <a href="https://www.last2ticket.com/pt/events/484" target="_blank" class="btn-theme btn-theme-md btn-white-bg-red-brd text-uppercase">Bilhetes disponíveis aqui</a>
+            <p class="margin-t-40">
+                <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftedxviladocondewomen.com%2F&layout=button&size=large&mobile_iframe=true&width=93&height=28&appId" width="93" height="28" style="border:none;overflow:hidden;" scrolling="no"
+                    frameborder="0" allow-transparency="true"></iframe>
+            </p>
         </div>
     </div>
     <!--========== SLIDER ==========-->
@@ -129,7 +128,7 @@
         <!--// end row -->
     </div>
     <!-- Pre-evento -->
-    <div id="preevento">
+    <div id="preevento" class="hide">
         <div class="bg-color-sky-light">
             <div class="content-sm container">
                 <div class="row row-space-2">
@@ -138,9 +137,10 @@
                             <div class="margin-b-30">
                                 <strong>PRÉ-EVENTO</strong>
                                 <h3><b class="color-base">Mulheres Que Fazem Acontecer a MULHER</b></h3>
-                                <strong>19 outubro - Centro de Memória de Vila do Conde <br>Entrada livre</strong>
-                                <p>Curadoria e moderação: Isabel Lhano<br/>
-                                    <i>Participação especial: Valter Hugo-Mãe</i></p>
+                                <strong>19 outubro - Centro de Memória de Vila do Conde </strong>
+                                <p>Evento gratuito, com lotação sujeita à capacidade da sala</p>
+                                <br/>
+                                <p>Curadoria e moderação: Isabel Lhano</p>
                             </div>
                             <div class="row">
                                 <div class="col-sm-5" style="border-right:0px solid #e6e6e6">
@@ -157,9 +157,9 @@
                                     <p>Programa:</p>
                                     <ul class="list-unstyled pricing-list margin-b-50">
                                         <li class="pricing-list-item">21:00 - Receção e networking </li>
-                                        <li class="pricing-list-item">21:30 - Apresentação do TEDxVilaDoCondeWomen</li>
+                                        <li class="pricing-list-item">21:30 - Boas-vindas da equipa TEDxVilaDoCondeWomen</li>
                                         <li class="pricing-list-item">21:40 - Tertúlia Mulheres Que Fazem Acontecer a MULHER</li>
-                                        <li class="pricing-list-item">22:30 - Mensagem final TEDxVilaDoCondeWomen
+                                        <li class="pricing-list-item">22:30 - Encerramento: TEDxVilaDoCondeWomen, vale a pena partilhar ideias...
                                         </li>
                                     </ul>
                                 </div>
@@ -246,41 +246,40 @@
     <div id="oradores">
         <div class="content-lg container section-seperator">
             <h2 class="text-center">Oradores</h2>
-            <!-- Masonry Grid -->
             <div class="row margin-t-60">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                    <div class="col-xs-6 col-sm-6 col-md-4 margin-b-4 col-md-offset-2">
-                        <!-- Orador -->
-                        <div>
-                            <a href="https://www.linkedin.com/in/kim-sawyer-30b43a1/" target="_blank">
-                                <img class="full-width img-responsive" src="img/speakers/kim.sawyer.jpg" alt="Kim Sawyer">
-                                <h4 class="margin-t-20">
-                                    Kim Sawyer
-                                </h4>
-                            </a>
-                        </div>
-                        <!-- End Orador -->
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 margin-b-4 hide">
-                        <!-- Orador -->
-                        <div>
-                            <a href="https://www.linkedin.com/in/aura-miguel-0569a4110/" target="_blank">
-                                <img class="full-width img-responsive" src="img/speakers/aura.miguel.jpg" alt="Aura Miguel">
-                                <h4 class="margin-t-20">Aura Miguel</h4>
-                            </a>
-                        </div>
-                        <!-- End Orador -->
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 margin-b-4">
-                        <!-- Orador -->
-                        <div>
-                            <a href="https://www.linkedin.com/in/dianatcarvalho/" target="_blank">
-                                <img class="full-width img-responsive" src="img/speakers/diana.carvalho.jpg" alt="Diana Teixeira de Carvalho">
-                                <h4 class="margin-t-20">Diana Teixeira de Carvalho</h4>
-                            </a>
-                        </div>
-                        <!-- End Orador -->
-                    </div>
+                <div class="speaker-flex">
+                    <!-- Orador -->
+                    <a href="https://www.linkedin.com/in/aura-miguel-0569a4110/" target="_blank">
+                        <img class="full-width img-responsive" src="img/speakers/am.png" alt="Aura Miguel">
+                        <h4 class="margin-t-20">Aura Miguel</h4>
+                    </a>
+                    <!-- End Orador -->
+                    <!-- Orador -->
+                    <a href="https://www.linkedin.com/in/kim-sawyer-30b43a1/" target="_blank">
+                        <img class="full-width img-responsive" src="img/speakers/ks.png" alt="Kim Sawyer">
+                        <h4 class="margin-t-20">
+                            Kim Sawyer
+                        </h4>
+                    </a>
+                    <!-- End Orador -->
+                    <!-- Orador -->
+                    <a href="https://www.linkedin.com/in/isabel-martins-lhano-294b5a2b/" target="_blank">
+                        <img class="full-width img-responsive" src="img/speakers/il.png" alt="Isabel Lhano">
+                        <h4 class="margin-t-20">Isabel Lhano</h4>
+                    </a>
+                    <!-- End Orador -->
+                    <!-- Orador -->
+                    <a href="https://www.linkedin.com/in/abel-coentr%C3%A3o-61501043/" target="_blank">
+                        <img class="full-width img-responsive" src="img/speakers/ac.png" alt="Abel Coentrão">
+                        <h4 class="margin-t-20">Abel Coentrão</h4>
+                    </a>
+                    <!-- End Orador -->
+                    <!-- Orador -->
+                    <a href="https://www.linkedin.com/in/dianatcarvalho/" target="_blank">
+                        <img class="full-width img-responsive" src="img/speakers/dtc.png" alt="Diana Teixeira de Carvalho">
+                        <h4 class="margin-t-20">Diana Teixeira de Carvalho</h4>
+                    </a>
+                    <!-- End Orador -->
                 </div>
             </div>
         </div>
@@ -289,11 +288,11 @@
 
     <!-- Inscrições -->
     <div id="inscricoes">
-        <div class="bg-color-sky-light">
+        <div class="bg-color-heading">
             <div class="content-lg container">
-                <h2 class="text-center">Inscrições</h2>
+                <!--<h2 class="text-center">Inscrições</h2>-->
                 <div class="row row-space-2">
-                    <div class="col-sm-4 sm-margin-b-4 col-sm-offset-4">
+                    <div class="col-sm-6 col-md-4 sm-margin-b-4 col-md-offset-4 col-sm-offset-3">
                         <!-- Pricing -->
                         <div class="pricing pricing-active">
                             <div class="margin-b-30">

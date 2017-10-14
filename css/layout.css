@@ -341,8 +341,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .btn-white-bg-red-brd:hover, .btn-white-bg-red-brd:focus, .btn-white-bg-red-brd.focus {
-  color: #e62b1e;
-  background: #f3f4f5;
+  color: #fff;
+  background: #e62b1e;
   border-color: #e62b1e;
 }
 
@@ -770,20 +770,9 @@ fieldset[disabled] .btn-theme {
 }
 
 /* Navbar Logo */
-.header {
-  /*         .logo-img-main {
-            display: inline-block;
-            @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
-        }
-        .logo-img-active {
-            display: none;
-            @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
-        } */
-}
-
 .header .logo {
   width: 150px;
-  height: auto;
+  height: 150px;
   float: left;
   max-height: 95px;
   line-height: 65px;
@@ -792,7 +781,7 @@ fieldset[disabled] .btn-theme {
 @media (min-width: 1200px) {
   .header .logo {
     width: 350px;
-    height: auto;
+    height: 350px;
   }
 }
 
@@ -883,7 +872,7 @@ fieldset[disabled] .btn-theme {
 /* Media Queries below 991px */
 @media (max-width: 991px) {
   /* Bootstrap collapse of navigation with a maximum width: 991px
-    (Change it to any breakpoint you want to be collapsed) */
+(Change it to any breakpoint you want to be collapsed) */
   .header {
     background: #fff;
   }
@@ -923,15 +912,6 @@ fieldset[disabled] .btn-theme {
   }
   .header .menu-container:after {
     clear: both;
-  }
-  /* Logo */
-  .header .logo {
-    /*                 .logo-img-main {
-                    display: none;
-                }
-                .logo-img-active {
-                    display: inline-block;
-                } */
   }
   /* Navbar Nav */
   .header .nav-item-child {
@@ -983,16 +963,6 @@ fieldset[disabled] .btn-theme {
 
 /* Page On Scroll */
 @media (min-width: 992px) {
-  .page-on-scroll .header {
-    /*                 .logo-img-main {
-                    display: none;
-                    // @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
-                }
-                .logo-img-active {
-                    display: inline-block;
-                    // @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
-                } */
-  }
   .page-on-scroll .header .navbar {
     background: #fff;
     border-bottom-color: #f0f0f0;
@@ -1742,27 +1712,33 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-#oradores {
-  background-color: #f8f8f8;
-}
-
 @media (min-width: 768px) {
   #oradores {
     background-image: url(../img/objects/04.png);
     background-repeat: no-repeat;
-    background-position: -340px -240px;
+    background-position: -377px 0;
   }
+}
+
+#oradores .speaker-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 8%;
+}
+
+#oradores .speaker-flex a {
+  margin: 0 20px;
+  text-align: center;
+}
+
+#oradores .speaker-flex img {
+  max-width: 220px;
+  margin: auto;
 }
 
 #inscricoes {
   text-align: center;
-}
-
-#inscricoes #inscricoes_iframe {
-  width: 600px;
-  height: 770px;
-}
-
-#img_bilhetedigital {
-  display: none;
 }
