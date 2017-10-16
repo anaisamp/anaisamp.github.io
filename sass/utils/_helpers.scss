@@ -495,10 +495,14 @@
     padding: 30px;
     margin: 20px;
     max-width: 180px;
-    max-height: 150px;
+    max-height: 180px;
     .gold & {
-        max-width: 250px;
-        max-height: 200px;
+        max-width: 170px;
+        max-height: 150px;
+    }
+    .silver & {
+        max-width: 120px;
+        max-height: 150px;
     }
     .community & img {
         max-width: 70px;
@@ -540,4 +544,16 @@
 
 #inscricoes {
     text-align: center;
+}
+
+.btn-theme {
+    .bilhetes {
+        text-transform: lowercase;
+        color: $color-heading;
+    }
+    &:hover .bilhetes,
+    &:focus .bilhetes {
+        color: $color-white;
+        @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+    }
 }

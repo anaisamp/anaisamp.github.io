@@ -1689,12 +1689,17 @@ fieldset[disabled] .btn-theme {
   padding: 30px;
   margin: 20px;
   max-width: 180px;
-  max-height: 150px;
+  max-height: 180px;
 }
 
 .gold .sponsor-container {
-  max-width: 250px;
-  max-height: 200px;
+  max-width: 170px;
+  max-height: 150px;
+}
+
+.silver .sponsor-container {
+  max-width: 120px;
+  max-height: 150px;
 }
 
 .community .sponsor-container img {
@@ -1741,4 +1746,17 @@ fieldset[disabled] .btn-theme {
 
 #inscricoes {
   text-align: center;
+}
+
+.btn-theme .bilhetes {
+  text-transform: lowercase;
+  color: #515769;
+}
+
+.btn-theme:hover .bilhetes,
+.btn-theme:focus .bilhetes {
+  color: #fff;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
