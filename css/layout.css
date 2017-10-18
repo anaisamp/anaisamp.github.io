@@ -1697,8 +1697,8 @@ fieldset[disabled] .btn-theme {
   max-height: 150px;
 }
 
-.silver .sponsor-container {
-  max-width: 120px;
+.silver .sponsor-container img {
+  max-width: 100px;
   max-height: 150px;
 }
 
