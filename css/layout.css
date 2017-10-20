@@ -1750,7 +1750,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-theme .bilhetes {
   text-transform: lowercase;
-  color: #515769;
+  color: #222;
 }
 
 .btn-theme:hover .bilhetes,
