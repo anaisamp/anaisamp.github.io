@@ -1760,3 +1760,7 @@ fieldset[disabled] .btn-theme {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
+
+.margin-r-40 {
+  margin-right: 40px;
+}

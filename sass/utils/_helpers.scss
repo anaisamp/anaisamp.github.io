@@ -557,3 +557,7 @@
         @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
     }
 }
+
+.margin-r-40 {
+    margin-right: 40px;
+}
